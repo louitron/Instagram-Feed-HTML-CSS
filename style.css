@@ -1,118 +1,70 @@
+/* General Styles */
+
+
 body {
     background: rgb(233, 231, 231);
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-
 span {
     display: block;
 }
-
-.container1 {
-    padding-top: 20px;
-}
-
-.container2{
-    padding-top: 20px;
-}
-
-.container3 {
-    padding-top: 20px;
-}
-div.header :first-child {
-    margin-top: 0;
-    text-align: center;
-}
-
 img {
     width: 100%;   
 }
 
 
-.boxHeader {
-    width: 100%;
-    display: flex;
-}
+/* Header */
+
 
 .header {
-   
     clear: both;
     width: 100%;
     background: white;
-}
-
-.wrapper {
-    width: 600px;
-    margin: auto;
     
 }
-
-
-.box1 {
-    margin: auto;
-    background: white;
-    
-}
-
-.box2 {
-    background: white;
-}
-
-.box3 {
-    background: white;
-}
-
-.box4 {
-    background: white;
-}
-
-div.header h1 {
-    margin-right: 125px;
+div.header :first-child {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 65px;
     font-size: 30pt;
 }
 
-div.box1 span.boxHeader h3 {
+
+/* Box Position and color */
+
+
+.boxContainer {
+    padding-top: 20px;
+}    
+.box {
+    width: 600px;
+    margin: auto;
+    background: white;
+}    
+
+
+/* Box Header */
+
+
+.boxHeader {
+    width: 100%;
+    display: flex;
+}    
+div.box span.boxDate h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 365px;
     color: rgb(190, 186, 186);
     text-align: right;
 }
-
-div.box1 span.boxHeader h2 {
+div.box span.boxHeader h2 {
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 10px;
     text-align: left;
 }
 
-div.box2 span.boxHeader h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-left: 365px;
-    color: rgb(190, 186, 186);
-    text-align: right;
-}
-
-div.box2 span.boxHeader h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    text-align: left;
-}
-
-div.box3 span.boxHeader h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 365px;
-    color: rgb(190, 186, 186);
-    text-align: right;
-}
-
-div.box3 span.boxHeader h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    text-align: left;
-}
