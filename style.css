@@ -1,10 +1,9 @@
 /* General Styles */
 
-
 body {
     background: rgb(233, 231, 231);
     margin: 0;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 span {
     display: block;
@@ -13,9 +12,7 @@ img {
     width: 100%;   
 }
 
-
-/* Header */
-
+/* Main Header */
 
 .header {
     clear: both;
@@ -27,24 +24,26 @@ div.header :first-child {
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 65px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 55px;
     font-size: 30pt;
 }
 
-
 /* Box Position and color */
 
-
-.boxContainer {
-    padding-top: 20px;
+.boxPosition {
+    padding-top: 50px;
 }    
 .box {
     width: 600px;
     margin: auto;
     background: white;
 }    
+.imgGap {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 
 /* Box Header */
@@ -52,19 +51,33 @@ div.header :first-child {
 
 .boxHeader {
     width: 100%;
-    display: flex;
 }    
-div.box span.boxDate h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-left: 365px;
-    color: rgb(190, 186, 186);
-    text-align: right;
+.boxHeaderPosition {
+    display:flex
 }
 div.box span.boxHeader h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
     text-align: left;
+}
+div.box span.boxDate h3 {
+    padding-right: 20px;
+    color: rgb(190, 186, 186);
+    font-weight: lighter;
+    padding-top: 3px;
+    text-align: right;
+}
+.borderBottom {
+    border-bottom: 1px solid #ebe2e2;
+}
+
+/* Box Text */
+
+.boxText {
+    clear: both;
+    margin-top: 0;
+    padding: 15px;
+}
+.borderTop {
+    border-top: 1px solid #ebe2e2;
 }
 
